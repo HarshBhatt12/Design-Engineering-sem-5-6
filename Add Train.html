@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Train</title>
+    <link rel="stylesheet" href="styleOf_Add train.css">
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <!-- logo -->
+        <div id="logo">
+            <img src="logo.png" alt="Metro Rail">
+        </div>
+
+        <!-- navbar -->
+        <ul>
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="">View Trains</a></li>
+            <li class="item"><a href="">Search Trains</a></li>
+            <li class="item"><a href="">Add Trains</a></li>
+            <li class="item"><a href="">Cancle Train</a></li>
+            <li class="item"><a href="">Update Schedule</a></li>
+            <li class="item"><a href="">Logout</a></li>
+        </ul>
+    </nav>
+   
+    <!-- add train details-->
+    <section>
+        <div class="form-container">
+            <h1>ADD TRAIN</h1>
+        <form action="index.html">
+            <div class="control">
+                <label for="num">Train Number</label>
+                <input type="text" id="Tnum" >
+            </div>
+            <div class="control">
+                <label for="name">Train Name</label>
+                <input type="text" id="Tname" >
+            </div>
+            <div class="control">
+                <label for="f-stn">From Station</label>
+                <input type="text" id="from stn" >
+            </div>
+            <div class="control">
+                <label for="t-stn">To Station</label>
+                <input type="text" id="to stn" >
+             </div>
+            <div class="control">
+                <label for="available">Available</label>
+                <input type="text" id="available" >
+            </div>
+            <div class="control">
+                <label for="fare">Fare(INR)</label>
+                <input type="text" id="fare" >
+            </div>
+            <div class="control">
+                <input type="submit" class="btn" value="ADD TRAIN">
+            </div>
+        </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,198 @@
+/* for navbar */
+#navbar
+{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar ul
+{
+    display: flex;
+}
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a
+{
+    color: white; 
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+/* logo for navbar */
+#logo
+{
+    margin: 3px 6px;
+}
+#logo img
+{
+    margin: 3px 6px;
+    height: 59px;
+}
+
+/* for backgroung image */
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.75)),url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    overflow: hidden;
+} 
+
+/* for adding the train details */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+    color: #fff;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    padding: 0 30px;
+    position: fixed;
+  
+}
+h1{
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.control input{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    color:#000;
+    background: #ddd;
+    outline: none;
+    border: none;
+    margin: 10px;
+}         
+.control .btn{
+    color: #fff;
+    text-transform: uppercase;
+    background: crimson;
+    opacity: .7;
+    transition:opacity .3s ease;
+    margin-top: 10%;
+}
+.btn:focus{
+    opacity: 1;
+}
+
+/* transperent form adding train details */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans";
+    color: #fff;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(bg.jpg);
+    position: static;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.form-container{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #000;
+}
+h1{
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.control input{
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    color:#000;
+    background: #ddd;
+    outline: none;
+    border: none;
+    margin-top:3px;
+
+}         
+.control .btn{
+    color: #fff;
+    text-transform: uppercase;
+    background: crimson;
+    opacity: .8;
+    transition:opacity .3s ease;
+    margin-top: 2px;
+}
+.btn:focus{
+    opacity: 1;
+}
+.control .btn:hover{
+    opacity: 5;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .9;
+    font-size: large;
+}
+a:hover{
+    opacity: 1;
+}
+
